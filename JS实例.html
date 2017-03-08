@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title>第一个js库</title>
+	<style type="text/css">
+	/*	div{width: 500px;
+			height: 100px;
+			background-color: red;}*/
+	</style>
+</head>
+<body>         
+         <input type="button" name="" id="d1">
+ 	  	<!-- <input type="text" name=""  id="num">  <span>+</span>
+ 		<input type="text" name=""  id="num2">
+ 		<input type="button" name="" value="提交" id="but" >
+ 		<input type="text" name="" id="add">
+ 		<div id="div"></div>
+     <input type="button" name="" onclick="evel()"  value="do-while"> -->
+</body>
+	<script type="text/javascript">
+// 添加点击事件。。。。。。。。。。。。。。。。。。。
+
+        	// var  div=document.getElementById("div");
+        	// var  add=document.getElementById("add");
+        	//      var num=document.getElementById("num");
+        	//      var num2=document.getElementById("num2");
+        	//      var but=document.getElementById("but");
+         //             but.onclick = function(){
+         //             	var n1=parseInt(num.value);
+         //             	var n2=parseInt(num2.value);
+         //                var result=n1+n2;
+         // 				        add.value=result;
+         //               document.getElementById("div").innerHTML= result;
+         //          }
+                      
+// 猜拳。。。。。。。。。。。。。。。。。。。。。。。。
+
+
+                // var  go=false,i=0,count=0;
+
+                // while(!go){ 
+                //             i++;
+                // var guess=Number(prompt("请出拳:"));
+                //         count++;
+                //    if (guess!=4&&guess!=7&&guess!=10) {
+                //            alert("出错"+count+"次");
+                //            if (count==3) {
+                //             alert("老千嫌疑！");
+                //             break;
+                //            }else{
+                //             continue;
+                //            }
+                //    }
+                //     if (guess==4) { 
+                //       document.write("你出:"+"🔪"+"<br>");
+                //     }else if (guess==7) {
+                //       document.write("你出:"+"✊"+"<br>");
+                //     }else{
+                //       document.write("你出:"+"👋"+"<br>");
+                //     }
+              
+                // var  num = parseInt(Math.random()*3);
+                //      if (num==0) {
+                //       document.write("机器出:"+"🔪"+"<br>");
+                //      }else if (num==1) {
+                //       document.write("机器出:"+"✊"+"<br>");
+                //      }else{
+                //       document.write("机器出:"+"👋"+"<br>");
+                //      }
+         
+                // var max=num+guess;
+                //     switch(max){
+                   
+                //     case 4:
+                //     case 8:
+                //     case 12:document.write("平了");break;
+
+                   
+                //     case 5: 
+                //     case 9:
+                //     case 10: document.write("输了");break;
+                    
+                //     case 6:
+                //     case 7:
+                //     case 11:document.write("你赢了"); document.write("<br>"+"你用了"+i+"次");go=true; break;
+
+
+                //    }      
+                //  }
+
+                
+                         
+// 九九乘法表。。。。。。。。。。。。。。。。。。。。。。
+           
+      // for (var i = 1; i <= 9; i++) {
+      //    for (var j = i+0; j <= 9; j++) {
+      // 	           var num1=j*i;
+      // 	    document.write(i+"*"+j+"="+num1+"&nbsp&nbsp&nbsp&nbsp");
+      //     }
+      //       document.write("<br>");
+      // 	  } 
+              
+// while与do while的区别。。。。。。      
+        // var age=Number( prompt("请输入年龄："));  
+        // while(age<=0||age>=130){
+        //   alert("年领输入有误！！");
+        //         age=Number(prompt("请输入年龄："))
+        // }  
+        //      document.write("输入成功！！");
+ 
+        // function evel(){       
+        //   do{
+        //      var age=Number(prompt("请输入年龄："));
+        //   if (age<=0||age>=130) {
+        //     alert("年领输入有误！！");
+        //   }
+        // }while(age<=0||age>=130)
+        //    document.write("输入成功！！");
+        //     } 
+   
+
+//substring()与indexOf()的用法
+
+ //      var  name="量窗量床又量墙，跳上床量窗，靠往墙量床，墙比张床长，床又比窗长，窗长不过床，床又长不过墙，所以墙比床比窗长。";
+         //          var num2=0;
+         //           var i=0;
+         // while(num2!=-1){
+         //               num2=name.indexOf("床");
+         //             if (num2==-1) {
+         //                      break;
+         //              }else{
+         //                   name=name.substring(num2+1,name.length);
+         //                  document.write(name+"<br>");
+         //                        i++;
+         //                  document.write(i+"<br>");
+         //                  }
+         //                } 
+  
+  // var  name="量窗量床又量墙，跳上床量窗，靠往墙量床，墙比张床长，床又比窗长，窗长不过床，床又长不过墙，所以墙比床比窗长。";
+  //                     var num2=0;
+  //                     var i=1;
+  //             while( (num2=name.indexOf("床"))>=0){
+  //                 document.write("<br>"+i++);
+
+  //                 name=name.substring(num2+1,name.length);
+  //                         document.write("<br>"+name)
+  //             }
+                         var d1=document.getElementById("d1");
+                         i=0
+                         d1.onclick=function(){
+                              i+=1;
+                            console.log(i);
+                         }
+
+	</script>
+</html>
